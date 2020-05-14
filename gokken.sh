@@ -1,6 +1,6 @@
 Random_Getal=$((1 + RANDOM % 10)) # random getal aanmaken
 
-Aantalgokken=1  # het aantal gokken in een variabele stoppne
+Aantalgokken=1  # het aantal gokken in een variabele stoppen
 
 echo 'Probeer het willekeurig getal te raden!'
 
