@@ -23,7 +23,7 @@ while [ $Aantalgokken -le 3 ]; do
          
         if [ $gok -lt $Random_Getal ]; then # indien de gok kleiner is dan het random getal
             echo 'Hoger';
-        elif [ $gok -gt $Random_Getal ]; then # indien de gok groter is dzn het random getal
+        elif [ $gok -gt $Random_Getal ]; then # indien de gok groter is dan het random getal
             echo 'Lager';
         fi
     fi
