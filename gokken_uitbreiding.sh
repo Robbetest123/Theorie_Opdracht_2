@@ -20,6 +20,7 @@ while [ $Aantalgokken -le 3 ]; do
     
     if [ $gok -eq $Random_Getal ]; then # indien de gok gelijk is aan het random getal
         echo 'Correct! het nummer was:' $Random_Getal 
+        gewonnen=TRUE # indien we correct geraden hebben hebben we gewonnen!
         break;
     else # indien de gok niet gelijk is aan het random getal
          
@@ -37,4 +38,16 @@ done
 if [ $gok -ne $Random_Getal ]; then # indien de laatste gok niet juist was..
     echo 'Helaas! Je hebt geen pogingen meer!'
     echo 'Het random getal was: ' $Random_Getal
+    gewonnen=FALSE # we hebben verloren!
 fi
+
+
+if [ $Aantalgokken -eq 4 ]; then ((Aantalgokken-=1)); fi; # het aantal gokken staat nu op 4 => verlaag met 1
+
+
+echo '**_____________________________________**' >> ./score.txt # lijn zetten in het bestand score.txt
+echo "Naam: $naam" >> ./score.txt  # naam van de speler zetten in het bestand score.txt
+echo "Datum: $(date)" >> ./score.txt # de datum weergeven in het bestand score.txt
+echo "Gewonnen? $gewonnen" >> ./score.txt # weergeven of de speler gewonnen heeft of niet in het bestand score.txt
+echo "aantal pogingen: $Aantalgokken" >> ./score.txt # het aantal poginen weergeven dat de speler gebruiktt heeft, dit zullen we weergeven in het bestand score.txt
+echo ' ' >> ./score.txt # lege lijn plaatsen in het bestand score.txt
