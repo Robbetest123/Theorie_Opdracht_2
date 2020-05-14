@@ -1,0 +1,24 @@
+**_____________________________________**
+Naam: Robbe Croes
+Datum: do mei 14 19:04:44 CEST 2020
+Gewonnen? TRUE
+aantal pogingen: 2
+ 
+**_____________________________________**
+Naam: Robbe Croes
+Datum: do mei 14 19:07:15 CEST 2020
+Gewonnen? TRUE
+aantal pogingen: 1
+ 
+**_____________________________________**
+Naam: Robbe Croes
+Datum: do mei 14 19:07:44 CEST 2020
+Gewonnen? FALSE
+aantal pogingen: 3
+ 
+**_____________________________________**
+Naam: Robbe Croes
+Datum: do mei 14 19:20:32 CEST 2020
+Gewonnen? TRUE
+aantal pogingen: 3
+ 
