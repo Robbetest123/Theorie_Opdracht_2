@@ -49,5 +49,5 @@ echo '**_____________________________________**' >> ./score.txt # lijn zetten in
 echo "Naam: $naam" >> ./score.txt  # naam van de speler zetten in het bestand score.txt
 echo "Datum: $(date)" >> ./score.txt # de datum weergeven in het bestand score.txt
 echo "Gewonnen? $gewonnen" >> ./score.txt # weergeven of de speler gewonnen heeft of niet in het bestand score.txt
-echo "aantal pogingen: $Aantalgokken" >> ./score.txt # het aantal poginen weergeven dat de speler gebruiktt heeft, dit zullen we weergeven in het bestand score.txt
+echo "aantal pogingen: $Aantalgokken" >> ./score.txt # het aantal poginen weergeven dat de speler gebruikt heeft, dit zullen we weergeven in het bestand score.txt
 echo ' ' >> ./score.txt # lege lijn plaatsen in het bestand score.txt
